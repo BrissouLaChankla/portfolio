@@ -21,7 +21,7 @@ function Hero() {
     return (
         <div className="vh-100 bg-dark d-flex align-items-center justify-content-center">
             <div className="text-white text-center">
-                <Image src={Avatar} width={110} height={110} className='rounded-circle' />
+                <Image src={Avatar} width={110} height={110}  className='rounded-circle' />
                 <h1 className="mt-4">Brice Eliasse</h1>
                 <p>Développeur Web en recherche d'alternance !</p>
                 <div className="d-flex justify-content-center gap-4 fs-4">

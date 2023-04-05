@@ -2974,7 +2974,7 @@ textarea.form-control-lg {
   box-shadow: none;
 }
 
-.btn-primary {
+.btn-danger {
   --bs-btn-color: #fff;
   --bs-btn-bg: #FF4C60;
   --bs-btn-border-color: #FF4C60;

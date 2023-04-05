@@ -31,7 +31,7 @@ function Form() {
             </div>
 
 
-                <button className='btn btn-primary d-block mt-4 ms-auto' type="submit">Envoyer </button>
+                <button className='btn btn-danger d-block mt-4 ms-auto' type="submit">Envoyer </button>
         </form>
     );
 }

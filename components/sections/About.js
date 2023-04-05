@@ -30,17 +30,17 @@ function About() {
         {
             name: "HTML5 / CSS3 / Bootstrap",
             lvl: 25,
-            bgColor: "rgb(108, 108, 229)"
+            bgColor: "danger"
         },
         {
             name: "Javascript",
             lvl: 75,
-            bgColor: "rgb(249, 215, 76)"
+            bgColor: "primary"
         },
         {
             name: "React / Next.js",
             lvl: 50,
-            bgColor: "#FF4C60"
+            bgColor: "secondary"
         },
     ]
 
@@ -56,7 +56,7 @@ function About() {
                     <div className={`${styles.dialog} row bg-white gx-md-5 rounded-4 shadow p-4 position-relative`}>
                         <div className="col-md-6">
                             <p className="lh-lg">I am Bolby Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at WordPress.</p>
-                            <a target="_blank" href="/CV_Brice-Eliasse.pdf" className='btn btn btn-primary mt-2'>Download CV</a>
+                            <a target="_blank" href="/CV_Brice-Eliasse.pdf" className='btn btn btn-danger mt-2'>Download CV</a>
                         </div>
                         <div className="col-md-6">
                             <div className='d-flex flex-column justify-content-between h-100'>
@@ -67,7 +67,7 @@ function About() {
                                             <span>{skill.lvl}%</span>
                                         </div>
                                         <div className={`${styles.progress} progress mt-3`} role="progressbar" aria-valuenow={skill.lvl} aria-valuemin="0" aria-valuemax="100">
-                                            <div style={{ width: skill.lvl + "%", backgroundColor: skill.bgColor }} className={styles.progressBar}></div>
+                                            <div style={{ width: skill.lvl + "%" }} className={`bg-${skill.bgColor} ${styles.progressBar}`}></div>
                                         </div>
                                     </div>
                                 )}

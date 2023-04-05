@@ -15,14 +15,16 @@ $btn-border-radius:60px;
 
 
 $dark: #353353;
-$primary : #FF4C60;
+$primary : rgb(249, 215, 76);
 $secondary: rgb(108, 108, 229);
-$tertiary : rgb(249, 215, 76);
+$danger:#FF4C60;
+
 $min-contrast-ratio: 3;
 
 $line-height-lg:1.7;
 $body-color:  #333;
 $body-bg: #F9F9FF;
 $text-muted:#cfcfd9;
+
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
